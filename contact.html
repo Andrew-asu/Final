@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Andrew Mantle">
+        <title>Alpine Bliss Resort | Contact</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Delius+Swash+Caps&family=Lato:wght@400;700&family=Seymour+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Alpine Bliss Resort | Contact</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="contact">
+            <div class="content-B">
+                <div class="info">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a <span class="required">*</span></p>
+                    <img src="images/swiss-peak.jpg" alt="A stunning view of a Swiss mountain peak">
+                </div>
+                
+                <form>
+                    <label for="full-name">Full Name<span class="required">*</span></label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    
+                    <label for="email">Email Address<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number<span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    
+                    <label for="comments">Comments<span class="required">*</span></label>
+                    <textarea id="comments" name="comments" required></textarea>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Alpine Bliss Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
